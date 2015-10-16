@@ -1,0 +1,18 @@
+.image{ 
+margin:auto; 
+display: block; 
+height: 150px;
+} 
+
+hr {
+	width: 600px;
+}
+
+.center, h1{
+	text-align: center;
+}
+
+p,li {
+	margin-left: 30%;
+	margin-right: 30%;
+}
