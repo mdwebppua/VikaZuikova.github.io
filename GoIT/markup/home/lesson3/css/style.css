@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	display: block;
+	margin: 0 auto;
+	width: 1060px;
+	background-color: rgb(249,249,249);
+	border-right: 2px solid rgb(225,225,225);
+	border-left: 2px solid rgb(225,225,225);
+	font-family: 'OpenSansRegular';
+	font-size: 14px;
+	height: 990px;
+}
+
+.page {
+	background-color: white;
+	
+}
+
+.in_page {
+	margin: 0 40px;
+}
+
+.fitness {
+	margin: 45px 0;
+}
+
+.top_menu {
+	display: block;
+	margin: 0 auto;
+	background-color: rgb(83,82,82);
+	height: 40px;
+	width: 980px;
+}
+
+.top_menu li {
+    display: inline-block;
+    padding: 11px 40px;
+}
+
+.top_menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.top_menu li:hover {
+	background-color: rgb(69,69,69);
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+}
+
+.left {
+	float: left;
+	margin: 45px 0px;
+	width: 240px;
+	border: 1px solid rgb(200,200,200);
+}
+
+.left li{
+	display: block;
+	height: 40px;
+	width: 240px;
+	border-bottom: 1px solid rgb(200,200,200);
+}
+
+li:last-child {
+	border: none;
+}
+
+.left li a {
+	display: block;
+	text-decoration: none;
+	color: rgb(200,200,200);
+	padding: 10px 0px 10px 25px;
+}
+
+.left li:hover {
+	background-color: rgb(249,249,249);
+}
+
+.block_img {
+	float: right;
+	border: 1px solid rgb(200,200,200);
+	margin-top: 45px;
+	width: 680px;
+	height: 400px;
+}
+
+.img {
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+.text {
+	display: block;
+	float: right;
+	width: 640px;
+	margin: 40px 23px 60px 0px;
+	color: rgb(100,100,100);
+	line-height: 1.5;
+}
+
+.bottom_menu {
+	overflow: hidden;
+	display: block;
+	margin: 60px auto;
+	background-color: rgb(225,225,225);
+	height: 40px;
+	min-width: 970px;
+}
+
+.bottom_menu a {
+	text-decoration: none;
+	color: rgb(0,0,0);
+}
+
+.bottom_menu li {
+    display: inline-block;
+    padding: 11px 40px;
+}
+
+.bottom_menu li:hover {
+	background-color: rgb(225,225,225);
+	text-decoration: underline;
+}
+
+.bottom_menu p {
+	display: block;
+	color: rgb(0,0,0);
+	float: right;
+	padding: 15px 25px;
+}
+
+
+
+
+
+
