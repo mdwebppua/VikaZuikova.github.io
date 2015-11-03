@@ -61,9 +61,10 @@ body {
 	padding: 12px 37px;
 }
 
-.container {
-	position: relative;
-	overflow: hidden;
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
 }
 
 .left {
@@ -94,6 +95,7 @@ li:last-child {
 .left li:hover a {
 	background-color: rgb(249,249,249);
 	padding-left: 35px;
+	color: black;
 }
 
 .right {
@@ -101,12 +103,11 @@ li:last-child {
 	overflow: hidden;
 	float: right;
 	margin: 40px 40px 0 0;
+	width: 680px;
 }
 
 .bicycle {
 	border: 1px solid rgb(200,200,200);
-	height: 400px; 
-	width: 680px;
 }
 
 .img {
@@ -118,16 +119,13 @@ li:last-child {
 .text {
 	clear: right;
 	display: block;
-	width: 640px;
-	padding: 40px 0 60px 25px;
+	padding: 40px 25px 60px 25px;
 	font-size: 13px;
 	line-height: 21px;
 	color: rgb(44,44,44);
 }
 
 .bottom_menu {
-	overflow: hidden;
-	display: block;
 	margin: 0 40px 65px 40px;
 	background-color: rgb(225,225,225);
 	line-height: 20px;
@@ -142,7 +140,6 @@ li:last-child {
 .bottom_menu a {
 	text-decoration: none;
 	color: rgb(0,0,0);
-	
 }
 
 .bottom_menu li a:hover {
