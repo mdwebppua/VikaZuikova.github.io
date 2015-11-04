@@ -34,37 +34,38 @@ body {
 	margin: 0 auto;
 }
 
-.top_menu {
-	display: block;
-	margin: 0 40px;
-	background-image: url(../img/panel.png);
-	height: 40px;
-}
-
-.top_menu li {
-	display: inline-block;
-}
-
-.top_menu li a {
-	display: block;
-	line-height: 16px;
-	text-decoration: none;
-	color: rgb(255,255,255);
-	font-size: 15px;
-	padding: 12px 38px;
-}
-
-.top_menu li:hover a{
-	background-color: rgb(59,59,59);
-	border-left: 1px solid rgb(131,131,131);
-	border-right: 1px solid rgb(131,131,131);
-	padding: 12px 37px;
-}
-
 .clearfix:after {
 	content: '';
 	clear: both;
 	display: block;
+}
+
+.top_menu {
+	display: block;
+	margin: 0 40px;
+	background-image: url(../img/panel.png);
+	line-height: 40px;
+}
+
+.top_menu li {
+	float: left;
+}
+
+.top_menu li a {
+	display: block;
+	text-decoration: none;
+	color: rgb(255,255,255);
+	font-size: 15px;
+	padding: 0 30px;
+
+}
+
+.top_menu li a:hover{
+	background-color: rgb(59,59,59);
+	border-left: 1px solid rgb(131,131,131);
+	border-right: 1px solid rgb(131,131,131);
+	padding: 0 30px;
+	margin: 0 -1px;
 }
 
 .left {
@@ -88,19 +89,17 @@ li:last-child {
 	display: block;
 	text-decoration: none;
 	font-size: 13px;
-	color: rgb(200,200,200);
+	color: rgb(101,99,99);
 	padding: 14px 0px 14px 25px;
 }
 
 .left li:hover a {
 	background-color: rgb(249,249,249);
 	padding-left: 35px;
-	color: black;
+	color: rgb(44,44,44);
 }
 
 .right {
-	position: relative;
-	overflow: hidden;
 	float: right;
 	margin: 40px 40px 0 0;
 	width: 680px;
@@ -128,13 +127,13 @@ li:last-child {
 .bottom_menu {
 	margin: 0 40px 65px 40px;
 	background-color: rgb(225,225,225);
-	line-height: 20px;
+	line-height: 40px;
 	font-size: 13px;
 }
 
 .bottom_menu li {
-    display: inline-block;
-    padding: 13px 40px;
+    float: left;
+    padding: 0px 30px;
 }
 
 .bottom_menu a {
@@ -150,5 +149,5 @@ li:last-child {
 	display: block;
 	color: rgb(0,0,0);
 	float: right;
-	padding: 13px 25px 13px 0;
+	padding: 0px 25px 0 0;
 }
