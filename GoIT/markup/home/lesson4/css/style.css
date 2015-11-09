@@ -1,0 +1,178 @@
+body {
+	background-image: url(../img/bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	font-family: 'Tahoma Regular', sans-serif;
+}
+
+.page {
+	background-image: url(../img/page.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 40px 165px 0 165px;
+	box-shadow:  5px 0px 20px -2px #242424,  -5px 0px 20px -2px #242424;;
+	border-bottom: 3px solid black;
+}
+
+.contacts {
+	display: block;
+	float: right;
+	margin: 15px 38px 0 0;
+	line-height: 20px;
+}
+
+.contacts p {
+	color: rgb(18,138,167);
+	font-size: 12px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.menu {
+	float: right;
+	clear: both;
+	margin: 20px 35px 0 0;
+}
+
+.menu ul li {
+	display: inline-block;
+	width: 55px;
+	text-align: center;
+}
+
+.menu a {
+	font-size: 10px;
+	color: rgb(18,138,167);
+	text-align: center;
+}
+
+.items {
+	margin: 0 auto;
+}
+
+.logo {
+	float:left;
+	margin: -75px 0 0 30px;
+}
+
+.photo {
+	height: 237px;
+	width: 100%;
+}
+
+.clearfix:after {
+	content: '';
+	clear: both;
+	display: block;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.menu_panel {
+	background: linear-gradient(to bottom, #303030 0%,#373737 100%);
+	box-shadow: 0px 1px 4px 0px rgba(0,0,0,0.75);
+	border-bottom: 1px solid black;
+	margin: -2px 0;
+
+}
+
+.menu_panel li {
+	float: left;
+	list-style: none;
+	position: relative;
+}	
+
+.menu_panel > li > a {
+	display: block;
+	color: white;
+	font-size: 14px;
+	line-height: 28px;
+	padding: 0 34px;
+	text-decoration: none;
+
+}
+
+.menu_panel ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 23px;
+	background-color: rgb(48,48,48);
+	box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+	line-height: 25px;
+}
+
+.menu_panel li:hover ul {
+	display: block;
+}
+
+.menu_panel ul a {
+	padding: 0 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.st {
+	padding: 1px 5px;
+}
+
+.table {
+	overflow: hidden;
+}
+
+.leftColumn, .centerColumn, .rightColumn {
+	padding-bottom:30000px;
+	margin-bottom:-30000px;
+
+}
+
+.leftColumn {
+	width: 210px;
+	float: left;
+	background-color: rgb(237,238,240);
+	border-right: 1px solid rgb(199,202,207);
+}
+
+.centerColumn {
+	float: left;
+}
+
+.rightColumn {
+	width: 210px;
+	float: right;
+	background-color: rgb(237,238,240);
+	border-left: 1px solid rgb(199,202,207);
+}
+
+.text{
+	display: block;
+	text-align: center;
+	margin: 7px;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgb(66,76,67);
+}
+
+.table span{
+	display: block;
+	font-size: 14px;
+	color: rgb(66,76,67);
+	padding: 5px 0 5px 15px;
+}
+
+footer p {
+	font-size: 12px;
+	text-align: center;
+	color: white;
+	padding: 15px 0;
+}
+
+
+
+
+
