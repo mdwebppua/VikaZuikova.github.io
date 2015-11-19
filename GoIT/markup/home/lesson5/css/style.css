@@ -26,9 +26,14 @@ body {
 }
 
 .top_menu {
+	background-image: url(../img/menu.png);
+	background-size: 100%;
 	margin: 0 auto;
+}
+
+.wid {
 	width: 1000px;
-	height: 40px;
+	margin: 0 auto;
 }
 
 .top_menu p{
@@ -97,7 +102,7 @@ body {
 
 .b_panel {
 	width: 560px;
-	margin: 200px auto;
+	margin: 230px auto;
 }
 
 .b_panel1 {
