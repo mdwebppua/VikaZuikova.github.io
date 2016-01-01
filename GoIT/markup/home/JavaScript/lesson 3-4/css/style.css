@@ -1,0 +1,17 @@
+.center {
+	display: block;
+	margin: 0 auto;
+}
+
+.indent{
+	text-indent: 30%;
+}
+
+.indent2{
+	text-indent: 35%;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 4px 8px 0;
+}
+
