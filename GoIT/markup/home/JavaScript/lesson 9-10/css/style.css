@@ -1,0 +1,77 @@
+body {
+	background: rgb(50, 50, 50);
+}
+
+h1 {
+	text-align: center;
+	height: 50px;
+	background-color: rgb(100, 150, 200);
+	line-height: 45px;
+    font-size: 40px;
+}
+
+h2 {
+	font-size: 30px;
+	padding: 20px 0;
+}
+
+.left {
+	margin: 0 0 25px 20px;
+	float: left;
+}
+
+.right {
+	margin: 0 20px 25px 0;
+	float: right;
+}
+
+.chbox {
+	display: inline-block;
+	margin: 0 10px;
+}
+
+input[type=checkbox] {
+	position: absolute;
+	clip: rect(0, 0, 0, 0);
+}
+
+.left label {
+	cursor: pointer;
+}
+
+.left label:after {
+	content: " ";
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	background: url(../img/checkbox-2.png);
+    position: relative;
+    top: 3px;
+    margin-left: 15px;
+}
+
+input[type=checkbox]:checked + label:after {
+background-position: 0 -17px;
+}
+
+label:hover:after {
+background-position: 0 -34px;
+}
+
+input[type=checkbox]:checked + label:hover:after {
+	background-position: 0 -51px;
+}
+
+.niceCheck {
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/checkbox.png);
+}
+
+.niceCheck input {
+display: none;
+}
+
+

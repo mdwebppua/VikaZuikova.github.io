@@ -1,0 +1,39 @@
+p {
+    font-style: normal 12px Arial;
+    text-align: center;
+    padding: 10px 0;
+}
+
+dl {
+	font:normal 12px Arial;
+    position: relative;
+    width: 350px;
+    margin: 0 auto;
+}
+
+dt {
+    clear: both;
+    float:left;
+    width: 130px;
+    padding: 4px 0 2px 0;
+    text-align: left;
+}
+
+dd {
+    float: left;
+    width: 200px;
+    margin: 0 0 20px 0;
+    padding-left: 6px;
+}
+
+.hint {
+    display: none;
+    position: absolute;
+    right: -250px;
+    width: 200px;
+    margin-top: -4px;
+    border: 1px solid #c93;
+    padding: 10px 12px;
+    background: #ffc -10px 5px;
+}
+
