@@ -140,12 +140,13 @@
 
  .slider_item {
  	margin: 0 auto;
- 	padding: 0 30px;
+ 	padding: 40px 30px;
  }
 
  .slider_text1 {
  	color: #fefefe;
  	font-size: 36px;
+ 	padding-top: 105px;
  }
 
  .slider_text2 {
@@ -159,7 +160,7 @@
  	top: 50%;
  	height: 34px;
  	width: 25px;
- 	margin-top: -21px;
+ 	margin-top: 5px;
  	background: url(../img/arrows.png) 0 0 no-repeat;
  }
 
@@ -174,7 +175,7 @@
 
  .slider_buttons {
  	position: absolute;
- 	bottom: -90px;
+ 	bottom: -45px;
  	width: 100%;
  	margin-left: -25px;
  	text-align: center;
@@ -249,6 +250,13 @@
 .slider_title span {
 	display: block;
 	color: #edbfff;
+}
+
+.slider_title:before {
+	content: url(../img/face.png);
+	position: absolute;
+    top: 18px;
+    left: -25px;
 }
 
 .slider--content .slider_text {
@@ -354,7 +362,8 @@
 	margin: 0 0 16px 0;
 }
 
-.updates_image {
+.updates_item:before {
+	content: url(../img/round_icons.png);
 	margin: 0 17px 0 0;
 	float: left;
 }
@@ -493,12 +502,16 @@ footer {
 	.slider_phone {
 		display: block;
     	float: right;
-    	margin: -90px 15px 0 35px;
+    	margin: 13px 15px -56px 35px;
 	}
 
 	.slider_phone img {
 		width: 225px;
     	height: 358px;
+	}
+
+	.slider_buttons {
+		bottom: -85px;
 	}
 
 	.slider_text3 {
@@ -606,7 +619,7 @@ footer {
 	.slider_phone {
 		display: block;
     	float: right;
-    	margin: -50px 65px 0 35px;
+    	margin: 78px 65px -42px 35px;;
 	}
 
 	.slider_phone img {
@@ -617,6 +630,10 @@ footer {
 	.slider {
 		text-align: left;
 		padding: 0px 20px 20px 20px;
+	}
+
+	.slider_buttons {
+		bottom: -80px;
 	}
 
 	.slider_text3 {
@@ -710,6 +727,7 @@ footer {
 	
 	.wrapper {
 		max-width: 960px;
+		overflow: hidden;
 	}
 
 	header {
@@ -763,7 +781,11 @@ footer {
  	.slider_phone {
 		display: block;
     	float: right;
-    	margin: -83px 65px 0 35px;
+    	margin: -10px 65px -100px 35px;;
+	}
+
+	.slider_buttons {
+		bottom: -2px;
 	}
 
 	.slider_phone img {
@@ -804,8 +826,14 @@ footer {
     width: 46%;
 	}
 
+	.slider--content .slider_item:after {
+		content: url(../img/talk-arrow.png);
+		margin: 30px 0 0 310px;
+    	position: absolute;
+	}
+
 	.updates {
-    margin: 50px 60px 0 0px;
+    margin: 50px 110px 0 0px;
     float: right;
 	}
 
@@ -831,7 +859,7 @@ footer {
 	.category {
 		margin: 0 0 54px 0;
 		text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3);
-		width: 27%;
+		width: 26%;
 		float: left;
 		padding: 0 30px;
 }
