@@ -20,7 +20,7 @@ body {
 }
 
 .image{ 
-	margin:auto; 
+	margin: 10px auto; 
 	display: block; 
 	height: 150px;
 }
