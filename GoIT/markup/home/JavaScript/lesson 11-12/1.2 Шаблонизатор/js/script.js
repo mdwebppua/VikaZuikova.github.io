@@ -1,20 +1,24 @@
 $(function() {
 
-	var html = $('#main').html();
-	var info = {
-		name: 'Зуйкова Виктория Максимовна',
-		university: 'Киевский Политехнический Институт',
-		frontend1: 'одно из самых интересных направлений в сфере ИТ',
-		frontend2: 'хочу найти работу мечты',
-		frontend3: 'хочу зарабатывать на путешествия',
-		number: '+38(063) 491-90-09',
-		title-link: 'vk.com',
-		link: 'https://vk.com/id128356142',
-		feedback: 'Уже могу сделать небольшой макет',
-	};
+    var html = $('#test').html();
+    var data = {
+      name: 'Зуйкова Виктория Максимовна',
+      img: 'url(../img/photo.jpg)',
+      university: 'Студентка КПИ, Факультет Информатики и вычислительной техники',
+      frontend: 'Хочу учить фронтэнд, потому что:',
+      reason1: 'одно из самых интересных направлений в сфере ИТ',
+      reason2: 'хочу найти работу мечты',
+      reason3: 'хочу зарабатывать на путешествия',
+      contact: 'Мой контактный телефон',
+      number: '+38 (063) 491 90 09',
+      profile: 'Мой профиль ВК',
+      link: 'https://vk.com/id128356142',
+      mainLink: 'vk.com',
+      feedback: 'Мой фидбэк',
+      myFeedback: 'Уже могу сделать небольшой макет',
+    };
 
-	var content = tmpl(html, info);
-
-	$('body').append(content);
-
+    var content = tmpl(html, data);
+   
+    $('body').append(content);
 });

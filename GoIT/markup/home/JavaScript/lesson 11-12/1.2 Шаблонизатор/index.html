@@ -4,37 +4,47 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="js/template.js"></script>
-	<script src="js/script.js"></script>
+	<script src='js/script.js' ></script>
 </head>
 <body>
-
-<script type = "text/html" id="main">
-	<div class="page">
-			<div class="block0">
-				<h2><%= name%></h2>
-				<img class="image" src="img/22.jpg" alt="My Fhoto">
-				<p class="left"><%= university%></p>
-			</div>
-			<div class="block1">
-				<p>Хочу учить фронтенд, потому что:</p>
-				<ul>
-
-					<li><%= frontend1%></li>
-					<li><%= frontend2%></li>
-					<li><%= frontend3%></li>
-				</ul>
-			</div>
-			<div class="block1">
-				<p><%= number%></p>
-				<p>Мой профиль ВК<br><%= link%></p>
-			</div>
-			<div class="block2">
-				<p>Мой фибдек: <br>a href="/<%=link%>"><%=title-link%></a></p>
-			</div>
-		</div>
-
-</script>
 	
+	 <script type="text/html" id="test">
+	
+	 	<div class="page">
+	 		<div class="block1">
+	 			<h2><%= name %></h2>
+	 			<img class="image" src=<%= img %> alt="photo"/>
+	 			<p class="left"><%= university %></p>
+	 		</div>
+
+	 		<div class="block1">
+	 			<%= frontend %>
+	 			<ul>
+	 				<li><%= reason1 %></li>
+	 				<li><%= reason2 %></li>
+	 				<li><%= reason3 %></li>
+	 			</ul>
+	 		</div>
+
+	 		<div class="block1">
+	 			<p><%=  contact %></p>
+	 			<p><%=  number %></p>
+	 		</div>
+
+	 		<div class="block1">
+	 			<p><%=  profile %></p>
+	 			<p><a href="<%= link %>"></a><%=  mainLink %></p>
+	 		</div>
+
+	 		<div class="block2">
+	 			<p><%=  feedback %></p>
+	 			<p><%=  myFeedback %></p>
+	 		</div>
+	 		
+		</div>
+	
+	</script>
 </body>
 </html>
